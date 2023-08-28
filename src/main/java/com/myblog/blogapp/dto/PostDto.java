@@ -1,8 +1,6 @@
 package com.myblog.blogapp.dto;
 
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+
 
 
 public class PostDto {

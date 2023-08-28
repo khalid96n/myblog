@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class Post {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY )
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "title", nullable = false)
@@ -21,6 +21,9 @@ public class Post {
 
     @Column(name = "description", nullable = false)
     private String description;
+
+    @Column(name = "content", nullable = false)
+    private String content;
 
     public Long getId() {
         return id;
@@ -54,6 +57,5 @@ public class Post {
         this.content = content;
     }
 
-    @Column(name = "content", nullable = false)
-    private String content;
+
 }
