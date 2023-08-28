@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface PostService {
 
-    PostDto PostDto createPost(PostDto postDto);
+     PostDto createPost(PostDto postDto);
 }
